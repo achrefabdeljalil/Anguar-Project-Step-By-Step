@@ -1,0 +1,11 @@
+<li
+  [class]="getClassSwitchStatus(todo.completed)"
+  style="height: 2em; line-height: 50px; padding: 0px 15px"
+>
+  <span style="width: 90%" (click)="changeTodoStatus()"
+    ><strong>{{ todo.id }} : </strong> {{ todo.title }}</span
+  >
+  <span class="badge badge-light badge-pill hover-ach" (click)="deleteTodo()"
+    >&times;</span
+  >
+</li>

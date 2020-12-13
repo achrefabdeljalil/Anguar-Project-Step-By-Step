@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Meet With Boss",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Study Time ",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Outing with the family",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "title": "Buy home supplies",
+      "completed": true
+    },
+    {
+      "id": 6,
+      "title": "Take the dog to the veterinarian",
+      "completed": false
+    }
+  ]
+}
