@@ -288,7 +288,7 @@ app-todo-item {
 ## Angular with Json-Server (Database)
 1. First of all , let's intall the required packages 
   - **json-server** : `npm i json-server` 
-  - **@type/axios** : `npm i @types/axios`
+  - **axios** : `npm i axios`
   - add this code to the script tag in **package.json** file :`"json:serve": "json-server --watch server/db.json"`
   - add folder in the main path with **server** name 
   - run this command : `npm run json:serve`
