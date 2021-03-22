@@ -5,7 +5,7 @@ How to Create an Angular Project from Scratch
   - install git bash : https://git-scm.com/downloads (optional)	
   - install vscode : https://code.visualstudio.com    	
   - install nodejs : https://nodejs.org   	
-  - install angular cli : run command in bash `npm install -g @angular/cli@8.0.0`
+  - install angular cli : run command in bash `npm install -g @angular/cli`
 2. Create project `ng new projectName`
 3. What is **package.json** 
 4. How we can see **SPA** (Single page application) in project : **index.html**  : `<app-root></app-root>`
