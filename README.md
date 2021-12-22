@@ -21,7 +21,7 @@ How to Create an Angular Project from Scratch
   }) 
   ```
   - Declare Var in **app.component.ts** : `name='Your Name'`
-  - Display it in html : `{{name.toUpperCase()}} - {{1+1}}`
+  - Display it in html : write :  `{{name.toUpperCase()}} - {{1+1}}`
   - Typing : string, int, ...
   - constructor(){}
   - Method : ChangeName(){}
