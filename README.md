@@ -29,7 +29,7 @@ How to Create an Angular Project from Scratch
 9. add `<app-todos></app-todos>` to **app.component.html**
 10. create a folder : **models/Todo.ts**
 11. In Todo.ts put this code 
-```
+```Typescript
 export class Todo {
     id: number;
     title: string;
@@ -37,12 +37,12 @@ export class Todo {
 }
 ```
 - import the model **Todo.ts** in the **todos Component**  (todos.component.ts)
-```
+```Typescript
 import { Todo } from '../../models/Todo'
 ```
 12. Declare todos table in **todos.component.ts** : ` todos: Todo[] `
 13. Affect value to our table todo on **constructor** 
-```
+```Typescript
 this.todos = [{
       "id": 1,
       "title": "Meet With Boss",
