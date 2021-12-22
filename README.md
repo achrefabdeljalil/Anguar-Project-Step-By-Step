@@ -14,7 +14,7 @@ How to Create an Angular Project from Scratch
 7. app.component.ts 
   - imports 
   - Declaration : 
-  ```
+  ```Typescript
   @Component({
     selector: 'app-todos',
     templateUrl: './todos.component.html'
